@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/degarden/asannavillage.com
+    - /bin/cp -R * $DEPLOYPATH
